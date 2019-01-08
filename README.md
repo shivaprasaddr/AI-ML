@@ -1,1 +1,1 @@
-# Data-Science-Machine-Leaning-Bread-and-Butter
+# Data Science/Machine Leaning Bread & Butter
