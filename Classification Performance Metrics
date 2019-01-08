@@ -1,1 +1,4 @@
 # Understanding ROC curve
+
+Logistic regression is a derivative of linear regression where we are interested in making binary predictions or probability predictions on the interval [0, 1] with a threshold probability to determine where we split between 0 and 1. 
+The ROC curve or "receiver operating characteristic" curve is an evaluation method we can use to assess the efficacy of a binary classification algorithm ("Receiver Operating Characteristic", n.d.) as well as choose the optimal threshold based on our tolerance for false negatives and desire for true positives.
