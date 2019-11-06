@@ -1,2 +1,24 @@
 
 https://deeplizard.com/learn/video/qO_NLVjD6zE
+
+# Vanishing & Exploding Gradient 
+
+B  What do we already know about gradients as it pertains to neural networks?
+
+Well, for one, when we use the word gradient by itself, we’re typically referring to the gradient of the loss function with respect to the weights in the network.
+
+We also know how this gradient is calculated, using backpropagation, which we covered in our earlier episodes dedicated solely to backprop.
+
+Finally, as we saw in the episode that demonstrates how a neural network learns, we know what to do with this gradient after it’s calculated. We update our weights with it!
+
+Well, we don’t perse, but stochastic gradient descent does, with the goal in mind to find the most optimal weight for each connection that will minimize the total loss of the network.
+
+With this understanding, we’re now going to talk about the vanishing gradient problem.
+
+We’re first going to answer, well, what the heck is the vanishing gradient problem anyway?
+
+Here, we’ll cover the idea conceptually. Then, we'll move our discussion to talking about how this problem occurs, and with the understanding that we’ll have developed up to this point, we’ll discuss the problem of exploding gradients.
+
+We’ll see that the exploding gradient problem is actually very similar to the vanishing gradient problem, and so we’ll be able to take what we learned about that problem and apply it to this new one.
+
+Alright, let’s begin. 
