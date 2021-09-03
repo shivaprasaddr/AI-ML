@@ -1,4 +1,4 @@
-#It is a process of reducing the ml/dl model size into smaller size, so the model can be deployed to run on small footprint memory devices. Such as edge devices aka low memory devices.
+It is a process of reducing the ml/dl model size into smaller size, so the model can be deployed to run on small footprint memory devices. Such as edge devices aka low memory devices.
 Trained model weights’ are stored normally in flot64 numbers, which requires 8/4(sometimes) bytes to store each weight value. Example convert float64 to float16.
 Quantization helps to improve the inference time i.e high throughput and low latency and models can be deployed and run on memory constrained devices. 
 Two types of quantization available are post quantization (after model training) and quantization aware training.
